@@ -10,7 +10,7 @@ services:
       environment:
         - "ROS_DOMAIN_ID=0"
         - "ROS_IP=192.168.29.3"
-        - "ROS_MASTER_URI=http://192.168.29.3:11311"
+        - "ROS_MASTER_URI=http://192.168.29.112:11311"
       command: bash -c "roscore"
       # devices:
       #   - /octo
