@@ -3,7 +3,7 @@ version: "2.3"
 services:
   # micros docekr image build
   roscore:
-      image: ros:noetic-ros-core-focal
+      image: ros:noetic
       # build:
       #   context: .
       #   dockerfile: Dockerfile.ros2.micro_ros
